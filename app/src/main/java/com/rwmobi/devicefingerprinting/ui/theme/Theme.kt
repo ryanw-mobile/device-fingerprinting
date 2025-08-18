@@ -1,4 +1,4 @@
-package com.rwmobi.githubcidemo.ui.theme
+package com.rwmobi.devicefingerprinting.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -39,7 +39,7 @@ private val LightColorScheme =
     )
 
 @Composable
-fun GithubCIDemoTheme(
+fun DeviceFingerprintingAppTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,

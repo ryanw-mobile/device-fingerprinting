@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Github CI Demo"
+rootProject.name = "Device Fingerprinting"
 include(":app")

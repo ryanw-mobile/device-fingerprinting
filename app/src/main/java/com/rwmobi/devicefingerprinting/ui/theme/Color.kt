@@ -1,4 +1,4 @@
-package com.rwmobi.githubcidemo.ui.theme
+package com.rwmobi.devicefingerprinting.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
