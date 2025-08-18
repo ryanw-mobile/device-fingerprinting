@@ -3,7 +3,7 @@
  * https://github.com/ryanw-mobile
  */
 
-package com.rwmobi.githubcidemo.ui.test
+package com.rwmobi.devicefingerprinting.ui.test
 
 import androidx.test.runner.AndroidJUnitRunner
 

@@ -1,4 +1,4 @@
-package com.rwmobi.githubcidemo
+package com.rwmobi.devicefingerprinting
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -14,7 +14,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
-import com.rwmobi.githubcidemo.ui.theme.GithubCIDemoTheme
+import com.rwmobi.devicefingerprinting.ui.theme.DeviceFingerprintingAppTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
 
         setContent {
-            GithubCIDemoTheme {
+            DeviceFingerprintingAppTheme {
                 // Android 15+ Will see solid red status bar
                 // and red tinted navigation bar
                 // Pre Android 15 will see tinted navigation bar
@@ -59,7 +59,7 @@ fun Greeting(
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
-    GithubCIDemoTheme {
+    DeviceFingerprintingAppTheme {
         Greeting("Android")
     }
 }

@@ -1,4 +1,4 @@
-package com.rwmobi.githubcidemo
+package com.rwmobi.devicefingerprinting
 
 import kotlin.test.Test
 import kotlin.test.assertEquals
